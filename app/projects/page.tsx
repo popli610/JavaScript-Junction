@@ -61,7 +61,7 @@ const page: React.FC = () => {
         <h1> JAVASCRIPT JUNCTION</h1>
       </div>
       <div className="flex justify-center space-x-4 mb-10">
-        <button className=" border  hover:bg-textColor hover:text-black rounded-full  px-5 ">
+        <button className=" border text-lg  hover:bg-textColor hover:text-black rounded-full  px-7 py-2  ">
           Easy
         </button>
         <button className=" hover:bg-green-600 py-2 px-4 rounded">

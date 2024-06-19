@@ -21,6 +21,7 @@ const config = {
     extend: {
       colors: {
         textColor: "#E5DED6",
+        navBg: "#121313",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

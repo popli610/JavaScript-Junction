@@ -26,13 +26,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   image
 }) => {
   return (
-    <Card className="max-w-lg bg-transparent text-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow duration-300">
+    <Card className="max-w-lg bg-transparent text-white border border-gray-800 rounded-xl p-6 hover:bg-gray-900 hover:bg-opacity-70 hover:cursor-pointer transition-all duration-350 ease-in-out">
       <img
         src={image}
         alt={title}
         className=" h-64 w-full object-cover rounded-lg"
       />
-      <CardHeader className= "px-0">
+      <CardHeader className="px-0">
         <CardTitle className="text-3xl font-bold">{title}</CardTitle>
         <CardDescription className="text-gray-500">
           Level: {level}
@@ -47,13 +47,25 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </p>
       </CardContent>
       <CardFooter className="flex px-0 justify-between text-black">
-        <Button variant="outline" rel="noopener noreferrer">
+        <Button
+          className="px-5 text-md rounded-lg"
+          variant="outline"
+          rel="noopener noreferrer"
+        >
           View Code
         </Button>
-        <Button variant="outline" rel="noopener noreferrer">
+        <Button
+          className="px-5 text-md rounded-lg"
+          variant="outline"
+          rel="noopener noreferrer"
+        >
           Visit Website
         </Button>
-        <Button variant="outline" rel="noopener noreferrer">
+        <Button
+          className="px-5 text-md rounded-lg"
+          variant="outline"
+          rel="noopener noreferrer"
+        >
           What You Learn
         </Button>
       </CardFooter>
